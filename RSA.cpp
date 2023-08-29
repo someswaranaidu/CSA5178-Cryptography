@@ -8,11 +8,11 @@ int checkPrime(int n) {
 	
 	for (i = 2; i <= m; i++) {
 		if (n % i == 0) {
-			return 0; // Not Prime
+			return 0; 
 		}
 	}
 
-	return 1; // Prime
+	return 1; 
 }
 
 int findGCD(int n1, int n2) {
